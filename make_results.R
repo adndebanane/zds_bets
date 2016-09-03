@@ -1,4 +1,4 @@
-##update on going leagues
+#download results of ligue 1 from football-data.co.uk
 system("curl -o all_results20162017.csv http://www.football-data.co.uk/mmz4281/1617/F1.csv")
 
 season20162017 <- read.table(file = "all_results20162017.csv", sep = ",", 
