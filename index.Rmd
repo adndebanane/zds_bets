@@ -2,20 +2,39 @@
 title: "zds - ligue 1"
 output: 
   html_document:
-    theme: flatly
+    theme: readable
     fig_width: 9
     fig_height: 7
+    toc: true
 ---
 
+#Championnat
+
+##Tous les résultats de la saison de ligue 1 2016-2017
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 library(plotly)
 library(DT)
 load("team_rankings.rda")
 load("results20162017.rda")
+calendar <- read.table("00-datasets/20162017/calendar_l1_1617.csv", header = T,  
+                       stringsAsFactors = F, sep = ",")
 
-datatable(season20162017[, c("Date", "HomeTeam", 
-          "AwayTeam", "FTHG", "FTAG", "FTRfrench")], colnames = c("Date", "Domicile", "Visiteurs",
-           "ButDomicile", "ButVisiteurs", "Resultat"), rownames = FALSE)
+datatable(season20162017[with(season20162017, order(Date, decreasing = TRUE)), 
+                         c("Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "FTRfrench")], 
+          colnames = c("Date", "Domicile", "Visiteurs", "ButDomicile", "ButVisiteurs", "Resultat"), 
+          rownames = FALSE)
+```
 
-datatable(sorted.table, rownames = FALSE)
+##Classement de la ligue 1
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+datatable(sorted.table, rownames = FALSE, options = list(pageLength = 20, dom = 't'))
+```
+
+##Prochains matchs
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+cur.week <- nrow(season20162017)/10 + 1
+datatable(calendar[calendar$Week == cur.week, c("HomeTeam", "AwayTeam")], 
+          colnames = c("Domicile", "Visiteur"),
+          rownames = FALSE, 
+          options = list(pageLength = 10, dom = 't'))
 ```

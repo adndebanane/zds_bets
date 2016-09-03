@@ -1,381 +1,381 @@
-HomeTeam,AwayTeam
-Bastia,Paris SG
-Nancy,Lyon
-Bordeaux,St Etienne
-Montpellier,Angers
-Nice,Rennes
-Marseille,Toulouse
-Dijon,Nantes
-Monaco,Guingamp
-Caen,Lorient
-Metz,Lille
-St Etienne,Montpellier
-Lorient,Bastia
-Lille,Dijon
-Lyon,Caen
-Paris SG,Metz
-Toulouse,Bordeaux
-Angers,Nice
-Rennes,Nancy
-Nantes,Monaco
-Guingamp,Marseille
-Nancy,Guingamp
-St Etienne,Toulouse
-Bordeaux,Nantes
-Montpellier,Rennes
-Nice,Lille
-Marseille,Lorient
-Dijon,Lyon
-Monaco,Paris SG
-Caen,Bastia
-Metz,Angers
-Lorient,Nancy
-Lille,Monaco
-Nice,Marseille
-Lyon,Bordeaux
-Paris SG,St Etienne
-Bastia,Toulouse
-Angers,Dijon
-Rennes,Caen
-Nantes,Metz
-Guingamp,Montpellier
-Nancy,Nantes
-St Etienne,Bastia
-Lorient,Lille
-Bordeaux,Angers
-Montpellier,Nice
-Marseille,Lyon
-Dijon,Metz
-Toulouse,Guingamp
-Monaco,Rennes
-Caen,Paris SG
-Lille,Toulouse
-Nice,Monaco
-Lyon,Montpellier
-Paris SG,Dijon
-Bastia,Nancy
-Angers,Caen
-Rennes,Marseille
-Nantes,St Etienne
-Guingamp,Lorient
-Metz,Bordeaux
-Nancy,Nice
-St Etienne,Lille
-Lorient,Lyon
-Bordeaux,Caen
-Montpellier,Metz
-Marseille,Nantes
-Bastia,Guingamp
-Dijon,Rennes
-Toulouse,Paris SG
-Monaco,Angers
-Lille,Nancy
-Nice,Lorient
-Lyon,St Etienne
-Paris SG,Bordeaux
-Dijon,Montpellier
-Angers,Marseille
-Rennes,Guingamp
-Nantes,Bastia
-Caen,Toulouse
-Metz,Monaco
-Nancy,Paris SG
-St Etienne,Dijon
-Lorient,Nantes
-Montpellier,Caen
-Nice,Lyon
-Marseille,Metz
-Bastia,Angers
-Toulouse,Monaco
-Rennes,Bordeaux
-Guingamp,Lille
-Bordeaux,Nancy
-Lille,Bastia
-Lyon,Guingamp
-Paris SG,Marseille
-Dijon,Lorient
-Angers,Toulouse
-Monaco,Montpellier
-Nantes,Rennes
-Caen,St Etienne
-Metz,Nice
-Nancy,Caen
-St Etienne,Monaco
-Lorient,Montpellier
-Lille,Paris SG
-Nice,Nantes
-Marseille,Bordeaux
-Bastia,Dijon
-Toulouse,Lyon
-Rennes,Metz
-Guingamp,Angers
-Bordeaux,Lorient
-Montpellier,Marseille
-Lyon,Bastia
-Paris SG,Rennes
-Dijon,Guingamp
-Angers,Lille
-Monaco,Nancy
-Nantes,Toulouse
-Caen,Nice
-Metz,St Etienne
-Nancy,Dijon
-St Etienne,Nice
-Lorient,Monaco
-Lille,Lyon
-Marseille,Caen
-Paris SG,Nantes
-Bastia,Montpellier
-Toulouse,Metz
-Rennes,Angers
-Guingamp,Bordeaux
-Bordeaux,Dijon
-Montpellier,Nancy
-Nice,Bastia
-Lyon,Paris SG
-Angers,St Etienne
-Rennes,Toulouse
-Monaco,Marseille
-Nantes,Lille
-Caen,Guingamp
-Metz,Lorient
-Nancy,Metz
-St Etienne,Marseille
-Lorient,Rennes
-Lille,Caen
-Paris SG,Angers
-Bastia,Bordeaux
-Dijon,Monaco
-Toulouse,Montpellier
-Nantes,Lyon
-Guingamp,Nice
-Bordeaux,Lille
-Montpellier,Paris SG
-Nice,Toulouse
-Marseille,Nancy
-Angers,Lorient
-Rennes,St Etienne
-Monaco,Bastia
-Caen,Dijon
-Guingamp,Nantes
-Metz,Lyon
-Nancy,Angers
-St Etienne,Guingamp
-Bordeaux,Monaco
-Lille,Montpellier
-Lyon,Rennes
-Paris SG,Nice
-Bastia,Metz
-Dijon,Marseille
-Toulouse,Lorient
-Nantes,Caen
-Lorient,St Etienne
-Montpellier,Bordeaux
-Nice,Dijon
-Marseille,Lille
-Toulouse,Nancy
-Angers,Nantes
-Rennes,Bastia
-Monaco,Lyon
-Caen,Metz
-Guingamp,Paris SG
-St Etienne,Nancy
-Bordeaux,Nice
-Lille,Rennes
-Lyon,Angers
-Paris SG,Lorient
-Bastia,Marseille
-Dijon,Toulouse
-Monaco,Caen
-Nantes,Montpellier
-Metz,Guingamp
-Nancy,Bastia
-Lorient,Guingamp
-Lille,St Etienne
-Montpellier,Dijon
-Nice,Metz
-Marseille,Monaco
-Toulouse,Nantes
-Angers,Bordeaux
-Rennes,Paris SG
-Caen,Lyon
-St Etienne,Angers
-Bordeaux,Toulouse
-Lyon,Marseille
-Bastia,Nice
-Dijon,Lille
-Monaco,Lorient
-Nantes,Paris SG
-Caen,Nancy
-Guingamp,Rennes
-Metz,Montpellier
-Nancy,Bordeaux
-Lorient,Dijon
-Nice,Guingamp
-Marseille,Montpellier
-Lyon,Lille
-Paris SG,Monaco
-Bastia,Caen
-Toulouse,St Etienne
-Angers,Metz
-Rennes,Nantes
-St Etienne,Lyon
-Bordeaux,Rennes
-Lille,Lorient
-Montpellier,Bastia
-Dijon,Paris SG
-Toulouse,Angers
-Monaco,Nice
-Nantes,Nancy
-Guingamp,Caen
-Metz,Marseille
-Lorient,Toulouse
-Montpellier,Monaco
-Nice,St Etienne
-Marseille,Guingamp
-Lyon,Nancy
-Paris SG,Lille
-Bastia,Nantes
-Angers,Rennes
-Caen,Bordeaux
-Metz,Dijon
-Nancy,Montpellier
-St Etienne,Lorient
-Bordeaux,Paris SG
-Lille,Angers
-Dijon,Caen
-Toulouse,Bastia
-Rennes,Nice
-Monaco,Metz
-Nantes,Marseille
-Guingamp,Lyon
-Lorient,Nice
-Bordeaux,Guingamp
-Montpellier,St Etienne
-Marseille,Rennes
-Lyon,Dijon
-Paris SG,Toulouse
-Bastia,Monaco
-Angers,Nancy
-Caen,Lille
-Metz,Nantes
-Nancy,Toulouse
-St Etienne,Caen
-Lille,Bordeaux
-Nice,Montpellier
-Marseille,Paris SG
-Lyon,Metz
-Angers,Bastia
-Rennes,Lorient
-Nantes,Dijon
-Guingamp,Monaco
-Lorient,Marseille
-Bordeaux,Lyon
-Montpellier,Guingamp
-Paris SG,Nancy
-Bastia,St Etienne
-Dijon,Nice
-Toulouse,Lille
-Monaco,Nantes
-Caen,Angers
-Metz,Rennes
-Nancy,Lille
-St Etienne,Metz
-Lorient,Paris SG
-Montpellier,Nantes
-Nice,Caen
-Marseille,Angers
-Lyon,Toulouse
-Rennes,Dijon
-Monaco,Bordeaux
-Guingamp,Bastia
-Nancy,Lorient
-Bordeaux,Montpellier
-Lille,Marseille
-Paris SG,Lyon
-Dijon,St Etienne
-Toulouse,Rennes
-Angers,Guingamp
-Nantes,Nice
-Caen,Monaco
-Metz,Bastia
-Lorient,Caen
-Montpellier,Toulouse
-Nice,Bordeaux
-Marseille,Dijon
-Bastia,Lille
-Rennes,Lyon
-Monaco,St Etienne
-Nantes,Angers
-Guingamp,Nancy
-Metz,Paris SG
-Nancy,Rennes
-St Etienne,Nantes
-Bordeaux,Metz
-Lille,Nice
-Lyon,Lorient
-Paris SG,Guingamp
-Dijon,Bastia
-Toulouse,Marseille
-Angers,Monaco
-Caen,Montpellier
-Montpellier,Lorient
-Nice,Nancy
-Marseille,St Etienne
-Bastia,Lyon
-Angers,Paris SG
-Rennes,Lille
-Monaco,Dijon
-Nantes,Bordeaux
-Guingamp,Toulouse
-Metz,Caen
-Nancy,Marseille
-St Etienne,Rennes
-Lorient,Metz
-Bordeaux,Bastia
-Lille,Guingamp
-Lyon,Monaco
-Paris SG,Montpellier
-Dijon,Angers
-Toulouse,Nice
-Caen,Nantes
-Montpellier,Lille
-Nice,Paris SG
-Bastia,Rennes
-Dijon,Bordeaux
-Angers,Lyon
-Monaco,Toulouse
-Nantes,Lorient
-Caen,Marseille
-Guingamp,St Etienne
-Metz,Nancy
-Nancy,Monaco
-St Etienne,Bordeaux
-Lorient,Angers
-Lille,Metz
-Marseille,Nice
-Lyon,Nantes
-Paris SG,Bastia
-Toulouse,Caen
-Rennes,Montpellier
-Guingamp,Dijon
-St Etienne,Paris SG
-Bordeaux,Marseille
-Montpellier,Lyon
-Nice,Angers
-Bastia,Lorient
-Dijon,Nancy
-Monaco,Lille
-Nantes,Guingamp
-Caen,Rennes
-Metz,Toulouse
-Nancy,St Etienne
-Lorient,Bordeaux
-Lille,Nantes
-Marseille,Bastia
-Lyon,Nice
-Paris SG,Caen
-Toulouse,Dijon
-Angers,Montpellier
-Rennes,Monaco
-Guingamp,Metz
+HomeTeam,AwayTeam,Week
+Bastia,Paris SG,1
+Nancy,Lyon,1
+Bordeaux,St Etienne,1
+Montpellier,Angers,1
+Nice,Rennes,1
+Marseille,Toulouse,1
+Dijon,Nantes,1
+Monaco,Guingamp,1
+Caen,Lorient,1
+Metz,Lille,1
+St Etienne,Montpellier,2
+Lorient,Bastia,2
+Lille,Dijon,2
+Lyon,Caen,2
+Paris SG,Metz,2
+Toulouse,Bordeaux,2
+Angers,Nice,2
+Rennes,Nancy,2
+Nantes,Monaco,2
+Guingamp,Marseille,2
+Nancy,Guingamp,3
+St Etienne,Toulouse,3
+Bordeaux,Nantes,3
+Montpellier,Rennes,3
+Nice,Lille,3
+Marseille,Lorient,3
+Dijon,Lyon,3
+Monaco,Paris SG,3
+Caen,Bastia,3
+Metz,Angers,3
+Lorient,Nancy,4
+Lille,Monaco,4
+Nice,Marseille,4
+Lyon,Bordeaux,4
+Paris SG,St Etienne,4
+Bastia,Toulouse,4
+Angers,Dijon,4
+Rennes,Caen,4
+Nantes,Metz,4
+Guingamp,Montpellier,4
+Nancy,Nantes,5
+St Etienne,Bastia,5
+Lorient,Lille,5
+Bordeaux,Angers,5
+Montpellier,Nice,5
+Marseille,Lyon,5
+Dijon,Metz,5
+Toulouse,Guingamp,5
+Monaco,Rennes,5
+Caen,Paris SG,5
+Lille,Toulouse,6
+Nice,Monaco,6
+Lyon,Montpellier,6
+Paris SG,Dijon,6
+Bastia,Nancy,6
+Angers,Caen,6
+Rennes,Marseille,6
+Nantes,St Etienne,6
+Guingamp,Lorient,6
+Metz,Bordeaux,6
+Nancy,Nice,7
+St Etienne,Lille,7
+Lorient,Lyon,7
+Bordeaux,Caen,7
+Montpellier,Metz,7
+Marseille,Nantes,7
+Bastia,Guingamp,7
+Dijon,Rennes,7
+Toulouse,Paris SG,7
+Monaco,Angers,7
+Lille,Nancy,8
+Nice,Lorient,8
+Lyon,St Etienne,8
+Paris SG,Bordeaux,8
+Dijon,Montpellier,8
+Angers,Marseille,8
+Rennes,Guingamp,8
+Nantes,Bastia,8
+Caen,Toulouse,8
+Metz,Monaco,8
+Nancy,Paris SG,9
+St Etienne,Dijon,9
+Lorient,Nantes,9
+Montpellier,Caen,9
+Nice,Lyon,9
+Marseille,Metz,9
+Bastia,Angers,9
+Toulouse,Monaco,9
+Rennes,Bordeaux,9
+Guingamp,Lille,9
+Bordeaux,Nancy,10
+Lille,Bastia,10
+Lyon,Guingamp,10
+Paris SG,Marseille,10
+Dijon,Lorient,10
+Angers,Toulouse,10
+Monaco,Montpellier,10
+Nantes,Rennes,10
+Caen,St Etienne,10
+Metz,Nice,10
+Nancy,Caen,11
+St Etienne,Monaco,11
+Lorient,Montpellier,11
+Lille,Paris SG,11
+Nice,Nantes,11
+Marseille,Bordeaux,11
+Bastia,Dijon,11
+Toulouse,Lyon,11
+Rennes,Metz,11
+Guingamp,Angers,11
+Bordeaux,Lorient,12
+Montpellier,Marseille,12
+Lyon,Bastia,12
+Paris SG,Rennes,12
+Dijon,Guingamp,12
+Angers,Lille,12
+Monaco,Nancy,12
+Nantes,Toulouse,12
+Caen,Nice,12
+Metz,St Etienne,12
+Nancy,Dijon,13
+St Etienne,Nice,13
+Lorient,Monaco,13
+Lille,Lyon,13
+Marseille,Caen,13
+Paris SG,Nantes,13
+Bastia,Montpellier,13
+Toulouse,Metz,13
+Rennes,Angers,13
+Guingamp,Bordeaux,13
+Bordeaux,Dijon,14
+Montpellier,Nancy,14
+Nice,Bastia,14
+Lyon,Paris SG,14
+Angers,St Etienne,14
+Rennes,Toulouse,14
+Monaco,Marseille,14
+Nantes,Lille,14
+Caen,Guingamp,14
+Metz,Lorient,14
+Nancy,Metz,15
+St Etienne,Marseille,15
+Lorient,Rennes,15
+Lille,Caen,15
+Paris SG,Angers,15
+Bastia,Bordeaux,15
+Dijon,Monaco,15
+Toulouse,Montpellier,15
+Nantes,Lyon,15
+Guingamp,Nice,15
+Bordeaux,Lille,16
+Montpellier,Paris SG,16
+Nice,Toulouse,16
+Marseille,Nancy,16
+Angers,Lorient,16
+Rennes,St Etienne,16
+Monaco,Bastia,16
+Caen,Dijon,16
+Guingamp,Nantes,16
+Metz,Lyon,16
+Nancy,Angers,17
+St Etienne,Guingamp,17
+Bordeaux,Monaco,17
+Lille,Montpellier,17
+Lyon,Rennes,17
+Paris SG,Nice,17
+Bastia,Metz,17
+Dijon,Marseille,17
+Toulouse,Lorient,17
+Nantes,Caen,17
+Lorient,St Etienne,18
+Montpellier,Bordeaux,18
+Nice,Dijon,18
+Marseille,Lille,18
+Toulouse,Nancy,18
+Angers,Nantes,18
+Rennes,Bastia,18
+Monaco,Lyon,18
+Caen,Metz,18
+Guingamp,Paris SG,18
+St Etienne,Nancy,19
+Bordeaux,Nice,19
+Lille,Rennes,19
+Lyon,Angers,19
+Paris SG,Lorient,19
+Bastia,Marseille,19
+Dijon,Toulouse,19
+Monaco,Caen,19
+Nantes,Montpellier,19
+Metz,Guingamp,19
+Nancy,Bastia,20
+Lorient,Guingamp,20
+Lille,St Etienne,20
+Montpellier,Dijon,20
+Nice,Metz,20
+Marseille,Monaco,20
+Toulouse,Nantes,20
+Angers,Bordeaux,20
+Rennes,Paris SG,20
+Caen,Lyon,20
+St Etienne,Angers,21
+Bordeaux,Toulouse,21
+Lyon,Marseille,21
+Bastia,Nice,21
+Dijon,Lille,21
+Monaco,Lorient,21
+Nantes,Paris SG,21
+Caen,Nancy,21
+Guingamp,Rennes,21
+Metz,Montpellier,21
+Nancy,Bordeaux,22
+Lorient,Dijon,22
+Nice,Guingamp,22
+Marseille,Montpellier,22
+Lyon,Lille,22
+Paris SG,Monaco,22
+Bastia,Caen,22
+Toulouse,St Etienne,22
+Angers,Metz,22
+Rennes,Nantes,22
+St Etienne,Lyon,23
+Bordeaux,Rennes,23
+Lille,Lorient,23
+Montpellier,Bastia,23
+Dijon,Paris SG,23
+Toulouse,Angers,23
+Monaco,Nice,23
+Nantes,Nancy,23
+Guingamp,Caen,23
+Metz,Marseille,23
+Lorient,Toulouse,24
+Montpellier,Monaco,24
+Nice,St Etienne,24
+Marseille,Guingamp,24
+Lyon,Nancy,24
+Paris SG,Lille,24
+Bastia,Nantes,24
+Angers,Rennes,24
+Caen,Bordeaux,24
+Metz,Dijon,24
+Nancy,Montpellier,25
+St Etienne,Lorient,25
+Bordeaux,Paris SG,25
+Lille,Angers,25
+Dijon,Caen,25
+Toulouse,Bastia,25
+Rennes,Nice,25
+Monaco,Metz,25
+Nantes,Marseille,25
+Guingamp,Lyon,25
+Lorient,Nice,26
+Bordeaux,Guingamp,26
+Montpellier,St Etienne,26
+Marseille,Rennes,26
+Lyon,Dijon,26
+Paris SG,Toulouse,26
+Bastia,Monaco,26
+Angers,Nancy,26
+Caen,Lille,26
+Metz,Nantes,26
+Nancy,Toulouse,27
+St Etienne,Caen,27
+Lille,Bordeaux,27
+Nice,Montpellier,27
+Marseille,Paris SG,27
+Lyon,Metz,27
+Angers,Bastia,27
+Rennes,Lorient,27
+Nantes,Dijon,27
+Guingamp,Monaco,27
+Lorient,Marseille,28
+Bordeaux,Lyon,28
+Montpellier,Guingamp,28
+Paris SG,Nancy,28
+Bastia,St Etienne,28
+Dijon,Nice,28
+Toulouse,Lille,28
+Monaco,Nantes,28
+Caen,Angers,28
+Metz,Rennes,28
+Nancy,Lille,29
+St Etienne,Metz,29
+Lorient,Paris SG,29
+Montpellier,Nantes,29
+Nice,Caen,29
+Marseille,Angers,29
+Lyon,Toulouse,29
+Rennes,Dijon,29
+Monaco,Bordeaux,29
+Guingamp,Bastia,29
+Nancy,Lorient,30
+Bordeaux,Montpellier,30
+Lille,Marseille,30
+Paris SG,Lyon,30
+Dijon,St Etienne,30
+Toulouse,Rennes,30
+Angers,Guingamp,30
+Nantes,Nice,30
+Caen,Monaco,30
+Metz,Bastia,30
+Lorient,Caen,31
+Montpellier,Toulouse,31
+Nice,Bordeaux,31
+Marseille,Dijon,31
+Bastia,Lille,31
+Rennes,Lyon,31
+Monaco,St Etienne,31
+Nantes,Angers,31
+Guingamp,Nancy,31
+Metz,Paris SG,31
+Nancy,Rennes,32
+St Etienne,Nantes,32
+Bordeaux,Metz,32
+Lille,Nice,32
+Lyon,Lorient,32
+Paris SG,Guingamp,32
+Dijon,Bastia,32
+Toulouse,Marseille,32
+Angers,Monaco,32
+Caen,Montpellier,32
+Montpellier,Lorient,33
+Nice,Nancy,33
+Marseille,St Etienne,33
+Bastia,Lyon,33
+Angers,Paris SG,33
+Rennes,Lille,33
+Monaco,Dijon,33
+Nantes,Bordeaux,33
+Guingamp,Toulouse,33
+Metz,Caen,33
+Nancy,Marseille,34
+St Etienne,Rennes,34
+Lorient,Metz,34
+Bordeaux,Bastia,34
+Lille,Guingamp,34
+Lyon,Monaco,34
+Paris SG,Montpellier,34
+Dijon,Angers,34
+Toulouse,Nice,34
+Caen,Nantes,34
+Montpellier,Lille,35
+Nice,Paris SG,35
+Bastia,Rennes,35
+Dijon,Bordeaux,35
+Angers,Lyon,35
+Monaco,Toulouse,35
+Nantes,Lorient,35
+Caen,Marseille,35
+Guingamp,St Etienne,35
+Metz,Nancy,35
+Nancy,Monaco,36
+St Etienne,Bordeaux,36
+Lorient,Angers,36
+Lille,Metz,36
+Marseille,Nice,36
+Lyon,Nantes,36
+Paris SG,Bastia,36
+Toulouse,Caen,36
+Rennes,Montpellier,36
+Guingamp,Dijon,36
+St Etienne,Paris SG,37
+Bordeaux,Marseille,37
+Montpellier,Lyon,37
+Nice,Angers,37
+Bastia,Lorient,37
+Dijon,Nancy,37
+Monaco,Lille,37
+Nantes,Guingamp,37
+Caen,Rennes,37
+Metz,Toulouse,37
+Nancy,St Etienne,38
+Lorient,Bordeaux,38
+Lille,Nantes,38
+Marseille,Bastia,38
+Lyon,Nice,38
+Paris SG,Caen,38
+Toulouse,Dijon,38
+Angers,Montpellier,38
+Rennes,Monaco,38
+Guingamp,Metz,38
