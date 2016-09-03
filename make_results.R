@@ -11,5 +11,5 @@ season20162017$FTRfrench[season20162017$FTR == "H"] <- 1
 season20162017$FTRfrench[season20162017$FTR == "D"] <- "N"
 season20162017$FTRfrench[season20162017$FTR == "A"] <- 2
 save(season20162017, file = "results20162017.rda")
-write.table(season20162017, file = "00-datasets/20162017/results_l1_1617.csv", sep = ";", quote = F)
+write.table(season20162017, file = "00-datasets/20162017/results_l1_1617.csv", sep = ",", quote = F)
 system("rm all_results20162017.csv")
