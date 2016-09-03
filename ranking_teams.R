@@ -37,5 +37,6 @@ for(iteam in 1:nb.teams){
 }
 
 sorted.table <- team.ranking[with(team.ranking, order(Points, GoalDifference, GoalsFor, decreasing = T)), ]
-write.table(sorted.table, quote = FALSE, sep = ",", file = "00-datasets/20162017/team_rankings.csv")
+write.table(sorted.table, quote = FALSE, sep = ",", row.names = FALSE,
+            file = "00-datasets/20162017/team_rankings.csv")
 save(sorted.table, file = "team_rankings.rda")
