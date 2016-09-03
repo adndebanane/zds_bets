@@ -1,0 +1,21 @@
+---
+title: "zds - ligue 1"
+output: 
+  html_document:
+    theme: flatly
+    fig_width: 9
+    fig_height: 7
+---
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+library(plotly)
+library(DT)
+load("team_rankings.rda")
+load("results20162017.rda")
+
+datatable(season20162017[, c("Date", "HomeTeam", 
+          "AwayTeam", "FTHG", "FTAG", "FTRfrench")], colnames = c("Date", "Domicile", "Visiteurs",
+           "ButDomicile", "ButVisiteurs", "Resultat"), rownames = FALSE)
+
+datatable(sorted.table, rownames = FALSE)
+```
