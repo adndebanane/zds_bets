@@ -3,6 +3,9 @@ calendar <- read.table("00-datasets/20162017/calendar_l1_1617.csv", header = T,
                        stringsAsFactors = F, sep = ",")
 load("results20162017.rda")
 cur.week <- nrow(season20162017)/10 + 1
-df2print <- cbind(calendar[calendar$Week == cur.week, ], rep("pseudo", 10), rep("", 10))
-names(df2print) <- c("Domicile", "Visiteur", "Week", "Pseudo", "Prono")
-kable(df2print[, -3], format = "markdown", row.names = F)
+cur.games <- calendar[calendar$Week == cur.week, ]
+cur.idgames <- paste(cur.games$HomeTeam, "-", cur.games$AwayTeam, sep = "")
+df2print <- cbind(cur.games, cur.idgames, rep("pseudo", 10), rep("", 10))
+df2print <- df2print[, c(4, 5, 6)]
+names(df2print) <- c("IdMatch", "Pseudo", "Prono")
+kable(df2print[, ], format = "markdown", row.names = F)
