@@ -18,6 +18,7 @@ players <- data.frame(id               = 1:nb.players,
 nb.matchs <- nrow(cur.season)
 max.played <- max(table(bets$player))
 
+bets <- bets[bets$idmatch %in% cur.season$idmatch,]#only select games with a result
 
 for (iplayer in 1:nb.players){
   played.games <- bets$idmatch[bets$player == players$player[iplayer]]
@@ -27,12 +28,12 @@ for (iplayer in 1:nb.players){
           (cur.results == "N") * cur.season$B365D[games.idres] + 
           (cur.results == "2") * cur.season$B365A[games.idres] 
   cur.wins <- bets$bet[bets$player == players$player[iplayer]] == cur.season$FTRfrench[games.idres]
-  cur.profits <- sum(pot.pergame * odds * cur.wins) - sum(pot.pergame * (1/odds) * !cur.wins )
   nb.played <- length(played.games)
   nb.won <- sum(cur.wins)
+  cur.profits <- sum(pot.pergame * odds * cur.wins) - pot.pergame * nb.played
   players$profits[iplayer] <- cur.profits
-  players$nb.match.played[iplayer] <- length(played.games)
-  players$nb.wins[iplayer] <- sum(cur.wins)
+  players$nb.match.played[iplayer] <- nb.played
+  players$nb.wins[iplayer] <- nb.won
   players$wins.ratio[iplayer] <- nb.won / nb.played
   players$weights[iplayer] <- players$weights[iplayer] * (1 - eta)**(nb.played - 
                               nb.won + 2/3*(max.played - nb.played))
