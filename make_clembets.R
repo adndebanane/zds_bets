@@ -4,13 +4,6 @@ bets <- read.table(file = "00-datasets/20162017/players_bets.csv", header = TRUE
                    stringsAsFactors = F)
 load("players.rda")
 
-names.to.id <- function(names){
-    id <- NULL;
-    for(i in 1:length(names)){
-        id <- c(id,experts$id[experts$expert == names[i]]);  
-    }
-    return(id);
-}
 
 ##List of games to play with
 list.betted.games <- unique(bets$idmatch)
@@ -21,7 +14,8 @@ nb.tobeplayed.games <- length(tobeplayed.games)
 
 mybets <- data.frame(idmatch            = tobeplayed.games,
                      random.bets        = rep(NA, nb.tobeplayed.games),
-                     deterministic.bets = rep(NA, nb.tobeplayed.games))
+                     deterministic.bets = rep(NA, nb.tobeplayed.games),
+                     votes              = rep(NA, nb.tobeplayed.games))
 
 ##Let's play!
 for(igame in 1:nb.tobeplayed.games){
@@ -42,9 +36,14 @@ for(igame in 1:nb.tobeplayed.games){
     }
     weight.distribution <- c(vote.1, vote.N, vote.2) / sum(c(vote.1, vote.N, vote.2))
     mybets$random.bets[igame] <- sample(c(1, "N", 2), 1, prob = weight.distribution)
-    mybets$deterministic.bets[igame] <- c(1, "N", 2)[c(vote.1, vote.N, vote.2) == max(vote.1, vote.N, vote.2)]
+    mybets$deterministic.bets[igame] <- c(1, "N", 2)[which.max(c(vote.1, vote.N, vote.2))]
+    mybets$votes[igame] <- max(c(vote.1, vote.N, vote.2))
 }
 print(mybets)
 oldbets <- mybets
 write.table(oldbets, file = "00-datasets/20162017/clembets.csv", sep = ",", row.names = FALSE, 
             col.names = FALSE, append = TRUE)
+library(knitr)
+df2print <- mybets[, c("idmatch", "deterministic.bets", "votes")]
+names(df2print) <- c("IdMatch", "Prono", "Votes")
+kable(df2print[, ], format = "markdown", row.names = F)

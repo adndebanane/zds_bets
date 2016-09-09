@@ -16,7 +16,8 @@ players <- data.frame(id               = 1:nb.players,
                       nb.match.played  = rep(0, nb.players), 
                       stringsAsFactors = FALSE)
 nb.matchs <- nrow(cur.season)
-max.played <- max(table(bets$player))
+max.played <- sum(unique(bets$idmatch) %in% season20162017$idmatch)
+
 
 bets <- bets[bets$idmatch %in% cur.season$idmatch,]#only select games with a result
 
@@ -28,7 +29,7 @@ for (iplayer in 1:nb.players){
           (cur.results == "N") * cur.season$B365D[games.idres] + 
           (cur.results == "2") * cur.season$B365A[games.idres] 
   cur.wins <- bets$bet[bets$player == players$player[iplayer]] == cur.season$FTRfrench[games.idres]
-  nb.played <- length(played.games)
+  nb.played <- length(games.idres)
   nb.won <- sum(cur.wins)
   cur.profits <- sum(pot.pergame * odds * cur.wins) - pot.pergame * nb.played
   players$profits[iplayer] <- cur.profits

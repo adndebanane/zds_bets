@@ -1,14 +1,51 @@
 idmatch,player,bet
-Bastia-Paris SG,alice,1
-Bastia-Paris SG,bob,2
-Bastia-Paris SG,rog,N
-Caen-Bastia,alice,2
-Caen-Bastia,rog,1
-Marseille-Toulouse,rog,1
-Marseille-Toulouse,alice,N
-Marseille-Toulouse,bob,N
-Marseille-Toulouse,max,2
-Monaco-Guingamp,alice,1
-Lorient-Nancy,bob,2
-Lorient-Nancy,alice,N
-Bastia-Toulouse,rog,1
+Lorient-Nancy,adndebanane_elo,2
+Lille-Monaco,adndebanane_elo,2
+Nice-Marseille,adndebanane_elo,1
+Lyon-Bordeaux,adndebanane_elo,1
+Paris SG-St Etienne,adndebanane_elo,1
+Bastia-Toulouse,adndebanane_elo,2
+Angers-Dijon,adndebanane_elo,2
+Rennes-Caen,adndebanane_elo,2
+Nantes-Metz,adndebanane_elo,1
+Guingamp-Montpellier,adndebanane_elo,1
+Lorient-Nancy,adndebanane_hasard,N
+Lille-Monaco,adndebanane_hasard,1
+Nice-Marseille,adndebanane_hasard,1
+Lyon-Bordeaux,adndebanane_hasard,N
+Paris SG-St Etienne,adndebanane_hasard,1
+Bastia-Toulouse,adndebanane_hasard,1
+Angers-Dijon,adndebanane_hasard,2
+Rennes-Caen,adndebanane_hasard,N
+Nantes-Metz,adndebanane_hasard,2
+Guingamp-Montpellier,adndebanane_hasard,1
+Lorient-Nancy,adndebanane,2
+Lille-Monaco,adndebanane,2
+Nice-Marseille,adndebanane,1
+Lyon-Bordeaux,adndebanane,1
+Paris SG-St Etienne,adndebanane,1
+Bastia-Toulouse,adndebanane,N
+Angers-Dijon,adndebanane,2
+Rennes-Caen,adndebanane,1
+Nantes-Metz,adndebanane,N
+Guingamp-Montpellier,adndebanane,1
+Lorient-Nancy,Rockaround,1
+Lille-Monaco,Rockaround,N
+Nice-Marseille,Rockaround,1
+Lyon-Bordeaux,Rockaround,1
+Paris SG-St Etienne,Rockaround,1
+Bastia-Toulouse,Rockaround,2
+Angers-Dijon,Rockaround,N
+Rennes-Caen,Rockaround,N
+Nantes-Metz,Rockaround,1
+Guingamp-Montpellier,Rockaround,N
+Lorient-Nancy,mrBen,N
+Lille-Monaco,mrBen,N
+Nice-Marseille,mrBen,1
+Lyon-Bordeaux,mrBen,2
+Paris SG-St Etienne,mrBen,N
+Bastia-Toulouse,mrBen,2
+Angers-Dijon,mrBen,2
+Rennes-Caen,mrBen,N
+Nantes-Metz,mrBen,2
+Guingamp-Montpellier,mrBen,1
