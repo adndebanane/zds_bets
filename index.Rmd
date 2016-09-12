@@ -10,29 +10,44 @@ output:
 
 Dernière mise à jour le `r date()`
 
-#Championnat
-
-##Tous les résultats de la saison de ligue 1 2016-2017
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 library(plotly)
 library(DT)
 load("team_rankings.rda")
 load("results20162017.rda")
+load("players.rda")
 calendar <- read.table("00-datasets/20162017/calendar_l1_1617.csv", header = T,  
                        stringsAsFactors = F, sep = ",")
+```
 
+# Pronostiqueurs
+
+Pour rejoindre le jeu, inscrivez-vous sur le forum http://zestedesavoir.com et participez au sujet [Atelier Paris sportifs et intelligence collective](https://zestedesavoir.com/forums/sujet/999/atelier-paris-sportifs-et-intelligence-collective/).
+
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
+datatable(players[with(players, order(nb.wins, weights, profits, decreasing = TRUE)), 
+          c("player", "profits", "weights", "nb.wins", "wins.ratio", "nb.match.played")], 
+          colnames = c("Joueur", "Gains", "Poids", "Nb de victoires", "Ratio de Victoires", "Nb de matchs"), 
+          rownames = FALSE)
+```
+
+# Championnat
+Cette saison il y a eu `r sum(season20162017$FTR == "H") / nrow(season20162017) * 100`% de victoires à domicile, `r sum(season20162017$FTR == "D") / nrow(season20162017) * 100`% de matchs nuls et `r sum(season20162017$FTR == "A") / nrow(season20162017) * 100`% de victoire à l'extérieur.
+
+## Tous les résultats de la saison de ligue 1 2016-2017
+```{r, echo = FALSE, warning = FALSE, message = FALSE}
 datatable(season20162017[with(season20162017, order(Date, decreasing = TRUE)), 
                          c("Date", "HomeTeam", "AwayTeam", "FTHG", "FTAG", "FTRfrench")], 
           colnames = c("Date", "Domicile", "Visiteurs", "ButDomicile", "ButVisiteurs", "Resultat"), 
           rownames = FALSE)
 ```
 
-##Classement de la ligue 1
+## Classement de la ligue 1
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 datatable(sorted.table, rownames = FALSE, options = list(pageLength = 20, dom = 't'))
 ```
 
-##Prochains matchs
+## Prochains matchs
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 cur.week <- nrow(season20162017)/10 + 1
 datatable(calendar[calendar$Week == cur.week, c("HomeTeam", "AwayTeam")], 
@@ -41,18 +56,18 @@ datatable(calendar[calendar$Week == cur.week, c("HomeTeam", "AwayTeam")],
           options = list(pageLength = 10, dom = 't'))
 ```
 
-##Classement Elo
+## Classement Elo
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 library(plotly)
 library(DT)
 load("../elo_ranking/eloranks_ts.rda")
 load("../elo_ranking/allresults.rda")
-cur.rows <- elo.df$Date > as.Date("2016-07-01")
-p <- plot_ly(elo.df[cur.rows, ], x = Date, y = Score, mode = "lines + markers", group = Team)
+# cur.rows <- elo.df$Date > as.Date("2016-07-01")
+p <- plot_ly(elo.df, x = Date, y = Score, mode = "lines + markers", group = Team)
 p
 ```
 *classement calculé depuis la saison 2013/2014*
 
-#Jeux de données
+# Jeux de données
 Tous les jeux de données utilisés sur cette page sont disponibles [sur github](https://github.com/adndebanane/zdsbets/tree/master/00-datasets/20162017).
 Ils proviennent du site http://www.football-data.co.uk et des utilisateurs du forum http://zestedesavoir.com sur le sujet [Atelier Paris sportifs et intelligence collective](https://zestedesavoir.com/forums/sujet/999/atelier-paris-sportifs-et-intelligence-collective/).
