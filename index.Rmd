@@ -10,6 +10,16 @@ output:
 
 Dernière mise à jour le `r date()`
 
+Bienvenue sur la page du jeu *zdsbet* joué sur le forum [zeste de savoir](http://zestedesavoir.com).
+Le jeu consiste à trouver un système, un algorithme ou à suivre son instinct pour prédire l'issue des matchs de football de ligue 1.
+Tous les joueurs prédisent les issues des 10 matchs de chaque journée de championnat.
+Un algorithme tente ensuite de faire une prédiction en utilisant toutes les prédictions des joueurs, pondérées par les performances passées.
+Les prédictions de l'algorithme sont enregistrées sous le nom du joueur *Clem*.
+
+Pour rejoindre le jeu, inscrivez-vous sur le forum http://zestedesavoir.com et participez au sujet [Atelier Paris sportifs et intelligence collective](https://zestedesavoir.com/forums/sujet/999/atelier-paris-sportifs-et-intelligence-collective/).
+
+Le programme (écrit en R) est accessible sur [github](https://github.com/adndebanane/zdsbets).
+
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 library(plotly)
 # library(dygraphs)
@@ -18,13 +28,12 @@ library(DT)
 load("team_rankings.rda")
 load("results20162017.rda")
 load("players.rda")
+load("allresults.rda")
 calendar <- read.table("00-datasets/20162017/calendar_l1_1617.csv", header = T,  
                        stringsAsFactors = F, sep = ",")
 ```
 
 # Pronostiqueurs
-
-Pour rejoindre le jeu, inscrivez-vous sur le forum http://zestedesavoir.com et participez au sujet [Atelier Paris sportifs et intelligence collective](https://zestedesavoir.com/forums/sujet/999/atelier-paris-sportifs-et-intelligence-collective/).
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 datatable(players[with(players, order(nb.wins, weights, profits, decreasing = TRUE)), 
@@ -34,7 +43,7 @@ datatable(players[with(players, order(nb.wins, weights, profits, decreasing = TR
 ```
 
 # Championnat
-Cette saison il y a eu `r sum(season20162017$FTR == "H") / nrow(season20162017) * 100`% de victoires à domicile, `r sum(season20162017$FTR == "D") / nrow(season20162017) * 100`% de matchs nuls et `r sum(season20162017$FTR == "A") / nrow(season20162017) * 100`% de victoire à l'extérieur.
+Cette saison il y a eu `r sum(season20162017$FTR == "H") / nrow(season20162017) * 100`% de victoires à domicile, `r sum(season20162017$FTR == "D") / nrow(season20162017) * 100`% de matchs nuls et `r sum(season20162017$FTR == "A") / nrow(season20162017) * 100`% de victoire à l'extérieur (contre respectivement `r sum(all.results$FTR == "H") / nrow(all.results) * 100`%, `r sum(all.results$FTR == "D") / nrow(all.results) * 100`% et `r sum(all.results$FTR == "A") / nrow(all.results) * 100`% depuis la saison 2013/2014).
 
 ## Tous les résultats de la saison de ligue 1 2016-2017
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
@@ -62,8 +71,8 @@ datatable(calendar[calendar$Week == cur.week, c("HomeTeam", "AwayTeam")],
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 load("../elo_ranking/eloranks_ts.rda")
 load("../elo_ranking/allresults.rda")
-# cur.rows <- elo.df$Date > as.Date("2016-07-01")
-p <- plot_ly(elo.df, x = Date, y = Score, mode = "lines + markers", group = Team)
+cur.rows <- elo.df$Date > as.Date("2016-07-01")
+p <- plot_ly(elo.df[cur.rows, ], x = Date, y = Score, mode = "lines + markers", group = Team)
 p
 
 # hchart(elo.df, type = "line", x = Date, y = Score, group = Team)
