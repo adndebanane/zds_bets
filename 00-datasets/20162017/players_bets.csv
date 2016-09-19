@@ -59,3 +59,63 @@ Angers-Dijon,Clem,2
 Rennes-Caen,Clem,N
 Nantes-Metz,Clem,1
 Guingamp-Montpellier,Clem,1
+Nancy-Nantes,mrBen,N
+St Etienne-Bastia,mrBen,N
+Lorient-Lille,mrBen,2
+Bordeaux-Angers,mrBen,N
+Montpellier-Nice,mrBen,2
+Marseille-Lyon,mrBen,2
+Dijon-Metz,mrBen,2
+Toulouse-Guingamp,mrBen,N
+Monaco-Rennes,mrBen,1
+Caen-Paris SG,mrBen,1
+Nancy-Nantes,Rockaround,2
+St Etienne-Bastia,Rockaround,1
+Lorient-Lille,Rockaround,2
+Bordeaux-Angers,Rockaround,N
+Montpellier-Nice,Rockaround,2
+Marseille-Lyon,Rockaround,2
+Dijon-Metz,Rockaround,N
+Toulouse-Guingamp,Rockaround,N
+Monaco-Rennes,Rockaround,1
+Caen-Paris SG,Rockaround,2
+Nancy-Nantes,adndebanane_elo,1
+St Etienne-Bastia,adndebanane_elo,1
+Lorient-Lille,adndebanane_elo,2
+Bordeaux-Angers,adndebanane_elo,1
+Montpellier-Nice,adndebanane_elo,2
+Marseille-Lyon,adndebanane_elo,2
+Dijon-Metz,adndebanane_elo,1
+Toulouse-Guingamp,adndebanane_elo,1
+Monaco-Rennes,adndebanane_elo,1
+Caen-Paris SG,adndebanane_elo,2
+Nancy-Nantes,adndebanane_hasard,1
+St Etienne-Bastia,adndebanane_hasard,1
+Lorient-Lille,adndebanane_hasard,2
+Bordeaux-Angers,adndebanane_hasard,1
+Montpellier-Nice,adndebanane_hasard,N
+Marseille-Lyon,adndebanane_hasard,1
+Dijon-Metz,adndebanane_hasard,1
+Toulouse-Guingamp,adndebanane_hasard,N
+Monaco-Rennes,adndebanane_hasard,N
+Caen-Paris SG,adndebanane_hasard,1
+Nancy-Nantes,adndebanane,1
+St Etienne-Bastia,adndebanane,1
+Lorient-Lille,adndebanane,2
+Bordeaux-Angers,adndebanane,1
+Montpellier-Nice,adndebanane,2
+Marseille-Lyon,adndebanane,N
+Dijon-Metz,adndebanane,1
+Toulouse-Guingamp,adndebanane,2
+Monaco-Rennes,adndebanane,1
+Caen-Paris SG,adndebanane,2
+Nancy-Nantes,Clem,1
+St Etienne-Bastia,Clem,1
+Lorient-Lille,Clem,2
+Bordeaux-Angers,Clem,1
+Montpellier-Nice,Clem,2
+Marseille-Lyon,Clem,2
+Dijon-Metz,Clem,1
+Toulouse-Guingamp,Clem,N
+Monaco-Rennes,Clem,1
+Caen-Paris SG,Clem,2

@@ -37,7 +37,7 @@ for(igame in 1:nb.tobeplayed.games){
     weight.distribution <- c(vote.1, vote.N, vote.2) / sum(c(vote.1, vote.N, vote.2))
     mybets$random.bets[igame] <- sample(c(1, "N", 2), 1, prob = weight.distribution)
     mybets$deterministic.bets[igame] <- c(1, "N", 2)[which.max(c(vote.1, vote.N, vote.2))]
-    mybets$votes[igame] <- max(c(vote.1, vote.N, vote.2))
+    mybets$votes[igame] <- max(c(vote.1, vote.N, vote.2))/sum(players$weights)*100
 }
 print(mybets)
 oldbets <- mybets
@@ -45,5 +45,5 @@ write.table(oldbets, file = "00-datasets/20162017/clembets.csv", sep = ",", row.
             col.names = FALSE, append = TRUE)
 library(knitr)
 df2print <- mybets[, c("idmatch", "deterministic.bets", "votes")]
-names(df2print) <- c("IdMatch", "Prono", "Votes")
+names(df2print) <- c("IdMatch", "Prono", "%Poids")
 kable(df2print[, ], format = "markdown", row.names = F)
