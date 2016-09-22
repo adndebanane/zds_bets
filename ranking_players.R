@@ -4,6 +4,9 @@ bets <- read.table(file = "00-datasets/20162017/players_bets.csv", header = TRUE
                    stringsAsFactors = F)
 pot.pergame <- 10 #euros
 eta <- 1/8
+load("players.rda")
+av.win.ratio <- mean(players$wins.ratio)
+rm(players)
 
 name.players <- unique(bets$player)
 nb.players <- length(name.players)
@@ -37,7 +40,7 @@ for (iplayer in 1:nb.players){
   players$nb.wins[iplayer] <- nb.won
   players$wins.ratio[iplayer] <- nb.won / nb.played
   players$weights[iplayer] <- players$weights[iplayer] * (1 - eta)**(nb.played - 
-                              nb.won + 2/3*(max.played - nb.played))
+                              nb.won + (1 - av.win.ratio)*(max.played - nb.played))
 }
 players
 players$profits / sqrt(players$nb.match.played)

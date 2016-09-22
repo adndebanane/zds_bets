@@ -9,3 +9,9 @@ df2print <- cbind(cur.games, cur.idgames, rep("pseudo", 10), rep("", 10))
 df2print <- df2print[, c(4, 5, 6)]
 names(df2print) <- c("IdMatch", "Pseudo", "Prono")
 kable(df2print[, ], format = "markdown", row.names = F)
+
+load("players.rda")
+df2print <- players[with(players, order(nb.wins, weights, profits, decreasing = TRUE)), 
+          c("player", "profits", "weights", "nb.wins", "wins.ratio", "nb.match.played")]
+names(df2print) <- c("Joueur", "Gains", "Poids", "Nb de victoires", "Ratio de Victoires", "Nb de matchs")
+kable(df2print[, ], format = "markdown", row.names = F)

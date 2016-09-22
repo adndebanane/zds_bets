@@ -119,3 +119,63 @@ Dijon-Metz,Clem,1
 Toulouse-Guingamp,Clem,N
 Monaco-Rennes,Clem,1
 Caen-Paris SG,Clem,2
+Lille-Toulouse,Matchaos,1
+Nice-Monaco,Matchaos,2
+Lyon-Montpellier,Matchaos,N
+Paris SG-Dijon,Matchaos,1
+Bastia-Nancy,Matchaos,1
+Angers-Caen,Matchaos,2
+Rennes-Marseille,Matchaos,N
+Nantes-St Etienne,Matchaos,2
+Guingamp-Lorient,Matchaos,1
+Metz-Bordeaux,Matchaos,2
+Lille-Toulouse,mrBen,N
+Nice-Monaco,mrBen,N
+Lyon-Montpellier,mrBen,N
+Paris SG-Dijon,mrBen,2
+Bastia-Nancy,mrBen,2
+Angers-Caen,mrBen,2
+Rennes-Marseille,mrBen,N
+Nantes-St Etienne,mrBen,1
+Guingamp-Lorient,mrBen,2
+Metz-Bordeaux,mrBen,1
+Lille-Toulouse,Emeric,1
+Nice-Monaco,Emeric,N
+Lyon-Montpellier,Emeric,1
+Paris SG-Dijon,Emeric,1
+Bastia-Nancy,Emeric,2
+Angers-Caen,Emeric,1
+Rennes-Marseille,Emeric,N
+Nantes-St Etienne,Emeric,2
+Guingamp-Lorient,Emeric,1
+Metz-Bordeaux,Emeric,2
+Lille-Toulouse,adndebanane_elo,1
+Nice-Monaco,adndebanane_elo,1
+Lyon-Montpellier,adndebanane_elo,1
+Paris SG-Dijon,adndebanane_elo,1
+Bastia-Nancy,adndebanane_elo,1
+Angers-Caen,adndebanane_elo,2
+Rennes-Marseille,adndebanane_elo,1
+Nantes-St Etienne,adndebanane_elo,2
+Guingamp-Lorient,adndebanane_elo,1
+Metz-Bordeaux,adndebanane_elo,2
+Lille-Toulouse,adndebanane_hasard,N
+Nice-Monaco,adndebanane_hasard,2
+Lyon-Montpellier,adndebanane_hasard,N
+Paris SG-Dijon,adndebanane_hasard,2
+Bastia-Nancy,adndebanane_hasard,2
+Angers-Caen,adndebanane_hasard,1
+Rennes-Marseille,adndebanane_hasard,2
+Nantes-St Etienne,adndebanane_hasard,2
+Guingamp-Lorient,adndebanane_hasard,1
+Metz-Bordeaux,adndebanane_hasard,2
+Lille-Toulouse,adndebanane,2
+Nice-Monaco,adndebanane,2
+Lyon-Montpellier,adndebanane,1
+Paris SG-Dijon,adndebanane,1
+Bastia-Nancy,adndebanane,1
+Angers-Caen,adndebanane,N
+Rennes-Marseille,adndebanane,N
+Nantes-St Etienne,adndebanane,2
+Guingamp-Lorient,adndebanane,1
+Metz-Bordeaux,adndebanane,2
