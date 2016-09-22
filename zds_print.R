@@ -11,7 +11,7 @@ names(df2print) <- c("IdMatch", "Pseudo", "Prono")
 kable(df2print[, ], format = "markdown", row.names = F)
 
 load("players.rda")
-df2print <- players[with(players, order(nb.wins, weights, profits, decreasing = TRUE)), 
+df2print <- players[with(players, order(wins.ratio, profits, decreasing = TRUE)), 
           c("player", "profits", "weights", "nb.wins", "wins.ratio", "nb.match.played")]
-names(df2print) <- c("Joueur", "Gains", "Poids", "Nb de victoires", "Ratio de Victoires", "Nb de matchs")
+names(df2print) <- c("Joueur", "Gains (€)", "Poids", "Nb de victoires", "Ratio de Victoires", "Nb de matchs")
 kable(df2print[, ], format = "markdown", row.names = F)
