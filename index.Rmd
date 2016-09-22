@@ -36,7 +36,7 @@ calendar <- read.table("00-datasets/20162017/calendar_l1_1617.csv", header = T,
 # Pronostiqueurs
 
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
-datatable(players[with(players, order(nb.wins, weights, profits, decreasing = TRUE)), 
+datatable(players[with(players, order(wins.ratio, profits, decreasing = TRUE)), 
           c("player", "profits", "weights", "nb.wins", "wins.ratio", "nb.match.played")], 
           colnames = c("Joueur", "Gains", "Poids", "Nb de victoires", "Ratio de Victoires", "Nb de matchs"), 
           rownames = FALSE)
