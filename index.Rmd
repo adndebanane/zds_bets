@@ -77,14 +77,18 @@ datatable(calendar[calendar$Week == cur.week, c("HomeTeam", "AwayTeam")],
 load("eloranks_ts.rda")
 
 cur.rows <- elo.df$Date > as.Date("2016-07-01")
-p <- ggplot(data = elo.df[cur.rows, ], aes(x = Date, y = as.numeric(Score), color = Team, label = Team)) + geom_line(aes(group = Team), size = 1.25) + ylab("Score Elo")
+p <- ggplot(data = elo.df[cur.rows, ], aes(x = Date, y = as.numeric(Score), color = Team, label = Team)) + geom_line(aes(group = Team), size = 1.25) + ylab("Score Elo") + ggtitle("Classement Elo de la saison 2016/2017")
 # direct.label(p, dl.combine("first.points","last.points"))
 # direct.label(p, dl.combine("last.points", "angled.boxes"))
 direct.label(p, "far.from.others.borders")
 
+q <- ggplot(data = elo.df, aes(x = Date, y = as.numeric(Score), color = Team, label = Team)) + geom_line(aes(group = Team)) + ylab("Score Elo") + ggtitle("Classement Elo depuis 2013/2014")
+# direct.label(p, dl.combine("first.points","last.points"))
+# direct.label(p, dl.combine("last.points", "angled.boxes"))
+direct.label(q, "last.points")
+
 # hchart(elo.df, type = "line", x = Date, y = Score, group = Team)
 ```
-*classement calculé depuis la saison 2013/2014*
 
 # Jeux de données
 Tous les jeux de données utilisés sur cette page sont disponibles [sur github](https://github.com/adndebanane/zdsbets/tree/master/00-datasets/20162017).
