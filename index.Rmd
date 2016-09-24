@@ -73,10 +73,15 @@ datatable(calendar[calendar$Week == cur.week, c("HomeTeam", "AwayTeam")],
 ## Classement Elo
 ```{r, echo = FALSE, warning = FALSE, message = FALSE}
 load("eloranks_ts.rda")
+library(ggplot2)
+library(directlabels)
 # load("../elo_ranking/allresults.rda")
+
 cur.rows <- elo.df$Date > as.Date("2016-07-01")
-p <- plot_ly(elo.df[cur.rows, ], x = Date, y = Score, mode = "lines + markers", group = Team)
-p
+p <- ggplot(data = elo.df[cur.rows, ], aes(x = Date, y = as.numeric(Score), color = Team, label = Team)) + geom_line(aes(group = Team), size = 1.25) + ylab("Score Elo")
+# direct.label(p, dl.combine("first.points","last.points"))
+# direct.label(p, dl.combine("last.points", "angled.boxes"))
+direct.label(p, "far.from.others.borders")
 
 # hchart(elo.df, type = "line", x = Date, y = Score, group = Team)
 ```
