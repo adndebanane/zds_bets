@@ -1,6 +1,6 @@
 library(knitr)
 load("results20162017.rda")
-cur.season <- season20162017
+cur.season <- tail(season20162017, n = 10)
 bets <- read.table(file = "00-datasets/20162017/players_bets.csv", header = TRUE, sep = ",", 
                    stringsAsFactors = F)
 pot.pergame <- 10 #euros
@@ -19,7 +19,7 @@ players <- data.frame(id               = 1:nb.players,
                       wins.ratio       = rep(0, nb.players),
                       nb.match.played  = rep(0, nb.players), 
                       stringsAsFactors = FALSE)
-nb.matchs <- nrow(cur.season)
+nb.matchs <- 10
 max.played <- sum(unique(bets$idmatch) %in% season20162017$idmatch)
 
 last.games <- tail(cur.season$idmatch, n = 10)
