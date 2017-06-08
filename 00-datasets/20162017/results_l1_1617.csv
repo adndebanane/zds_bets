@@ -129,3 +129,253 @@ Date,HomeTeam,AwayTeam,FTR,FTHG,FTAG,B365H,B365D,B365A,idmatch,FTRfrench
 2016-11-20,Guingamp,Bordeaux,D,1,1,2.45,3.2,3,Guingamp-Bordeaux,N
 2016-11-20,Marseille,Caen,H,1,0,1.7,3.75,5,Marseille-Caen,1
 2016-11-20,St Etienne,Nice,A,0,1,2.1,3.4,3.6,St Etienne-Nice,2
+2016-11-25,Rennes,Toulouse,H,1,0,2.4,3.1,3.1,Rennes-Toulouse,1
+2016-11-26,Bordeaux,Dijon,H,3,2,1.73,3.6,5.25,Bordeaux-Dijon,1
+2016-11-26,Caen,Guingamp,D,1,1,2.38,3.1,3.3,Caen-Guingamp,N
+2016-11-26,Metz,Lorient,D,3,3,2.7,3.25,2.7,Metz-Lorient,N
+2016-11-26,Monaco,Marseille,H,4,0,1.67,3.75,5.5,Monaco-Marseille,1
+2016-11-26,Montpellier,Nancy,D,0,0,1.91,3.4,4.2,Montpellier-Nancy,N
+2016-11-26,Nantes,Lille,D,0,0,2.25,3,3.6,Nantes-Lille,N
+2016-11-27,Angers,St Etienne,A,1,2,2.5,3,3.2,Angers-St Etienne,2
+2016-11-27,Lyon,Paris SG,A,1,2,3.6,3.4,2.1,Lyon-Paris SG,2
+2016-11-27,Nice,Bastia,D,1,1,1.62,3.75,6,Nice-Bastia,N
+2016-11-29,Dijon,Monaco,D,1,1,5.5,4,1.62,Dijon-Monaco,N
+2016-11-29,Lille,Caen,H,4,2,1.8,3.4,5,Lille-Caen,1
+2016-11-29,Lorient,Rennes,H,2,1,2.38,3.25,3.1,Lorient-Rennes,1
+2016-11-30,Bastia,Bordeaux,D,1,1,2.9,3,2.7,Bastia-Bordeaux,N
+2016-11-30,Guingamp,Nice,A,0,1,2.45,3.2,3,Guingamp-Nice,2
+2016-11-30,Nancy,Metz,H,4,0,1.91,3.5,4.2,Nancy-Metz,1
+2016-11-30,Nantes,Lyon,A,0,6,3.75,3.25,2.1,Nantes-Lyon,2
+2016-11-30,Paris SG,Angers,H,2,0,1.2,7,15,Paris SG-Angers,1
+2016-11-30,St Etienne,Marseille,D,0,0,2.15,3.25,3.6,St Etienne-Marseille,N
+2016-11-30,Toulouse,Montpellier,H,1,0,2.05,3.4,3.75,Toulouse-Montpellier,1
+2016-12-02,Caen,Dijon,D,3,3,2.1,3.3,3.6,Caen-Dijon,N
+2016-12-03,Angers,Lorient,D,2,2,2,3.3,4,Angers-Lorient,N
+2016-12-03,Bordeaux,Lille,A,0,1,2.15,3.1,3.8,Bordeaux-Lille,2
+2016-12-03,Guingamp,Nantes,H,2,0,2.1,3.25,3.75,Guingamp-Nantes,1
+2016-12-03,Monaco,Bastia,H,5,0,1.36,4.5,11,Monaco-Bastia,1
+2016-12-03,Montpellier,Paris SG,H,3,0,6.5,4.2,1.53,Montpellier-Paris SG,1
+2016-12-04,Marseille,Nancy,H,3,0,1.8,3.4,5,Marseille-Nancy,1
+2016-12-04,Nice,Toulouse,H,3,0,2.1,3.2,3.8,Nice-Toulouse,1
+2016-12-04,Rennes,St Etienne,H,2,0,2.4,3,3.3,Rennes-St Etienne,1
+2016-12-10,Bastia,Metz,H,2,0,1.83,3.4,4.75,Bastia-Metz,1
+2016-12-10,Bordeaux,Monaco,A,0,4,3.75,3.3,2.1,Bordeaux-Monaco,2
+2016-12-10,Dijon,Marseille,A,1,2,3.2,3.25,2.3,Dijon-Marseille,2
+2016-12-10,Lille,Montpellier,H,2,1,2,3.1,4.33,Lille-Montpellier,1
+2016-12-10,Nancy,Angers,H,2,0,2.5,2.9,3.25,Nancy-Angers,1
+2016-12-10,Toulouse,Lorient,H,3,2,2,3.3,4,Toulouse-Lorient,1
+2016-12-11,Lyon,Rennes,H,1,0,1.57,3.75,7,Lyon-Rennes,1
+2016-12-11,Paris SG,Nice,D,2,2,1.36,5,8.5,Paris SG-Nice,N
+2016-12-11,St Etienne,Guingamp,H,1,0,2,3.25,4.2,St Etienne-Guingamp,1
+2016-12-16,Angers,Nantes,A,0,2,2.4,3,3.2,Angers-Nantes,2
+2016-12-17,Guingamp,Paris SG,H,2,1,7,4.33,1.44,Guingamp-Paris SG,1
+2016-12-17,Lorient,St Etienne,H,2,1,2.4,3.2,3,Lorient-St Etienne,1
+2016-12-17,Montpellier,Bordeaux,H,4,0,2.25,3.3,3.2,Montpellier-Bordeaux,1
+2016-12-17,Rennes,Bastia,A,1,2,1.8,3.4,4.75,Rennes-Bastia,2
+2016-12-17,Toulouse,Nancy,D,1,1,1.91,3.2,4.33,Toulouse-Nancy,N
+2016-12-18,Caen,Metz,H,3,0,1.75,3.5,4.75,Caen-Metz,1
+2016-12-18,Marseille,Lille,H,2,0,2.05,3.2,3.75,Marseille-Lille,1
+2016-12-18,Monaco,Lyon,A,1,3,1.83,3.75,4,Monaco-Lyon,2
+2016-12-18,Nice,Dijon,H,2,1,1.53,4.2,5.75,Nice-Dijon,1
+2016-12-21,Bastia,Marseille,A,1,2,3.2,3.1,2.4,Bastia-Marseille,2
+2016-12-21,Bordeaux,Nice,D,0,0,2.7,3.1,2.8,Bordeaux-Nice,N
+2016-12-21,Dijon,Toulouse,H,2,0,2.5,3.2,3,Dijon-Toulouse,1
+2016-12-21,Lille,Rennes,D,1,1,2.05,3.2,4,Lille-Rennes,N
+2016-12-21,Lyon,Angers,H,2,0,1.44,4.5,7.5,Lyon-Angers,1
+2016-12-21,Metz,Guingamp,D,2,2,3.4,3.1,2.3,Metz-Guingamp,N
+2016-12-21,Monaco,Caen,H,2,1,1.25,6,12,Monaco-Caen,1
+2016-12-21,Nantes,Montpellier,H,1,0,2.25,3.2,3.4,Nantes-Montpellier,1
+2016-12-21,Paris SG,Lorient,H,5,0,1.18,7.5,15,Paris SG-Lorient,1
+2016-12-21,St Etienne,Nancy,D,0,0,2,3.1,4.33,St Etienne-Nancy,N
+2017-01-13,Lille,St Etienne,D,1,1,2.05,3.1,4.2,Lille-St Etienne,N
+2017-01-14,Angers,Bordeaux,D,1,1,2.8,3,2.75,Angers-Bordeaux,N
+2017-01-14,Lorient,Guingamp,H,3,1,2.45,3.2,3,Lorient-Guingamp,1
+2017-01-14,Montpellier,Dijon,D,1,1,1.8,3.5,4.75,Montpellier-Dijon,N
+2017-01-14,Nancy,Bastia,H,1,0,1.95,3.1,4.75,Nancy-Bastia,1
+2017-01-14,Rennes,Paris SG,A,0,1,7,4,1.53,Rennes-Paris SG,2
+2017-01-14,Toulouse,Nantes,A,0,1,2.05,3.1,4.1,Toulouse-Nantes,2
+2017-01-15,Caen,Lyon,H,3,2,4.75,3.75,1.75,Caen-Lyon,1
+2017-01-15,Marseille,Monaco,A,1,4,3,3.3,2.4,Marseille-Monaco,2
+2017-01-15,Nice,Metz,D,0,0,1.5,4.2,7,Nice-Metz,N
+2017-01-18,Nantes,Caen,H,1,0,2,3.4,4,Nantes-Caen,1
+2017-01-20,Bastia,Nice,D,1,1,3,3.1,2.55,Bastia-Nice,N
+2017-01-21,Bordeaux,Toulouse,H,1,0,2.1,3.25,3.8,Bordeaux-Toulouse,1
+2017-01-21,Dijon,Lille,D,0,0,3,3.1,2.55,Dijon-Lille,N
+2017-01-21,Guingamp,Rennes,D,1,1,2.3,3.1,3.4,Guingamp-Rennes,N
+2017-01-21,Metz,Montpellier,H,2,0,3.1,3.2,2.4,Metz-Montpellier,1
+2017-01-21,Nantes,Paris SG,A,0,2,10,4.33,1.4,Nantes-Paris SG,2
+2017-01-22,Lyon,Marseille,H,3,1,1.73,3.75,5,Lyon-Marseille,1
+2017-01-22,Monaco,Lorient,H,4,0,1.33,5,10,Monaco-Lorient,1
+2017-01-22,St Etienne,Angers,H,2,1,1.85,3.4,4.75,St Etienne-Angers,1
+2017-01-27,Marseille,Montpellier,H,5,1,1.67,3.75,5.5,Marseille-Montpellier,1
+2017-01-28,Angers,Metz,H,2,1,2,3.2,4.2,Angers-Metz,1
+2017-01-28,Bastia,Caen,D,1,1,2.25,3.1,3.5,Bastia-Caen,N
+2017-01-28,Lorient,Dijon,A,2,3,2.05,3.5,3.6,Lorient-Dijon,2
+2017-01-28,Lyon,Lille,A,1,2,1.45,4.33,7.5,Lyon-Lille,2
+2017-01-28,Nancy,Bordeaux,A,0,2,2.63,3,3,Nancy-Bordeaux,2
+2017-01-28,Rennes,Nantes,D,1,1,2.2,3.1,3.6,Rennes-Nantes,N
+2017-01-29,Nice,Guingamp,H,3,1,1.95,3.4,4.2,Nice-Guingamp,1
+2017-01-29,Paris SG,Monaco,D,1,1,1.67,4,5,Paris SG-Monaco,N
+2017-01-29,Toulouse,St Etienne,A,0,3,2.3,3,3.6,Toulouse-St Etienne,2
+2017-02-03,Metz,Marseille,H,1,0,4.33,3.6,1.85,Metz-Marseille,1
+2017-02-04,Bordeaux,Rennes,D,1,1,1.91,3.4,4.33,Bordeaux-Rennes,N
+2017-02-04,Dijon,Paris SG,A,1,3,11,5.5,1.3,Dijon-Paris SG,2
+2017-02-04,Guingamp,Caen,A,0,1,1.95,3.5,4,Guingamp-Caen,2
+2017-02-04,Lille,Lorient,A,0,1,1.73,3.8,4.75,Lille-Lorient,2
+2017-02-04,Monaco,Nice,H,3,0,1.53,4,6.5,Monaco-Nice,1
+2017-02-04,Montpellier,Bastia,H,2,1,1.8,3.6,4.5,Montpellier-Bastia,1
+2017-02-05,Nantes,Nancy,A,0,2,2.05,3.1,4.2,Nantes-Nancy,2
+2017-02-05,St Etienne,Lyon,H,2,0,3.6,3.4,2.1,St Etienne-Lyon,1
+2017-02-05,Toulouse,Angers,H,4,0,2.1,3.2,3.8,Toulouse-Angers,1
+2017-02-07,Caen,Bordeaux,A,0,4,2.5,3.2,3,Caen-Bordeaux,2
+2017-02-07,Montpellier,Monaco,A,1,2,4.6,3.8,1.75,Montpellier-Monaco,2
+2017-02-07,Paris SG,Lille,H,2,1,1.2,6.5,15,Paris SG-Lille,1
+2017-02-08,Angers,Rennes,D,0,0,2.5,3,3.2,Angers-Rennes,N
+2017-02-08,Lorient,Toulouse,D,1,1,2.3,3.2,3.3,Lorient-Toulouse,N
+2017-02-08,Lyon,Nancy,H,4,0,1.4,4.75,8,Lyon-Nancy,1
+2017-02-08,Marseille,Guingamp,H,2,0,1.7,3.75,5.25,Marseille-Guingamp,1
+2017-02-08,Metz,Dijon,H,2,1,2.5,3.2,3,Metz-Dijon,1
+2017-02-08,Nice,St Etienne,H,1,0,2.05,3.4,3.8,Nice-St Etienne,1
+2017-02-10,Bordeaux,Paris SG,A,0,3,5.5,4,1.62,Bordeaux-Paris SG,2
+2017-02-11,Dijon,Caen,H,2,0,2.38,3.3,3.1,Dijon-Caen,1
+2017-02-11,Guingamp,Lyon,H,2,1,3.7,3.6,2,Guingamp-Lyon,1
+2017-02-11,Lille,Angers,A,1,2,1.91,3.2,4.75,Lille-Angers,2
+2017-02-11,Monaco,Metz,H,5,0,1.22,6.5,13,Monaco-Metz,1
+2017-02-11,Nancy,Montpellier,A,0,3,2.5,3.1,3.1,Nancy-Montpellier,2
+2017-02-11,Toulouse,Bastia,H,4,1,1.83,3.3,5,Toulouse-Bastia,1
+2017-02-12,Nantes,Marseille,H,3,2,3.25,3.1,2.38,Nantes-Marseille,1
+2017-02-12,Rennes,Nice,D,2,2,2.63,3.1,2.88,Rennes-Nice,N
+2017-02-12,St Etienne,Lorient,H,4,0,1.91,3.5,4.2,St Etienne-Lorient,1
+2017-02-17,Bastia,Monaco,D,1,1,7,4.2,1.5,Bastia-Monaco,N
+2017-02-18,Angers,Nancy,H,1,0,2.05,3.1,4.2,Angers-Nancy,1
+2017-02-18,Caen,Lille,A,0,1,2.5,3,3.2,Caen-Lille,2
+2017-02-18,Lorient,Nice,A,0,1,2.9,3.25,2.5,Lorient-Nice,2
+2017-02-18,Marseille,Rennes,H,2,0,1.67,3.75,5.5,Marseille-Rennes,1
+2017-02-18,Metz,Nantes,D,1,1,3.25,3,2.45,Metz-Nantes,N
+2017-02-19,Bordeaux,Guingamp,H,3,0,1.91,3.5,4.2,Bordeaux-Guingamp,1
+2017-02-19,Lyon,Dijon,H,4,2,1.36,4.75,9.5,Lyon-Dijon,1
+2017-02-19,Montpellier,St Etienne,H,2,1,2.25,3.2,3.4,Montpellier-St Etienne,1
+2017-02-19,Paris SG,Toulouse,D,0,0,1.2,6.5,15,Paris SG-Toulouse,N
+2017-02-21,Caen,Nancy,H,1,0,2.15,3.2,3.75,Caen-Nancy,1
+2017-02-24,Nantes,Dijon,H,3,1,1.73,3.6,5.25,Nantes-Dijon,1
+2017-02-24,Nice,Montpellier,H,2,1,2.05,3.3,3.8,Nice-Montpellier,1
+2017-02-25,Angers,Bastia,H,3,0,1.85,3.2,5,Angers-Bastia,1
+2017-02-25,Guingamp,Monaco,A,1,2,5,3.75,1.73,Guingamp-Monaco,2
+2017-02-25,Lille,Bordeaux,A,2,3,2.4,3.1,3.25,Lille-Bordeaux,2
+2017-02-25,Nancy,Toulouse,D,0,0,2.7,3,2.88,Nancy-Toulouse,N
+2017-02-25,Rennes,Lorient,H,1,0,2.05,3.4,3.75,Rennes-Lorient,1
+2017-02-26,Lyon,Metz,H,5,0,1.22,7,12,Lyon-Metz,1
+2017-02-26,Marseille,Paris SG,A,1,5,5.5,3.75,1.67,Marseille-Paris SG,2
+2017-02-26,St Etienne,Caen,A,0,1,1.75,3.4,5.25,St Etienne-Caen,2
+2017-03-01,Bastia,Nantes,D,2,2,3.3,2.9,2.5,Bastia-Nantes,N
+2017-03-03,Bordeaux,Lyon,D,1,1,3.2,3.4,2.25,Bordeaux-Lyon,N
+2017-03-04,Bastia,St Etienne,D,0,0,3.3,3.1,2.38,Bastia-St Etienne,N
+2017-03-04,Caen,Angers,A,2,3,2.38,3.1,3.3,Caen-Angers,2
+2017-03-04,Dijon,Nice,A,0,1,3.25,3.4,2.2,Dijon-Nice,2
+2017-03-04,Metz,Rennes,D,1,1,3.2,3,2.5,Metz-Rennes,N
+2017-03-04,Montpellier,Guingamp,D,1,1,2,3.5,3.8,Montpellier-Guingamp,N
+2017-03-04,Paris SG,Nancy,H,1,0,1.14,8,21,Paris SG-Nancy,1
+2017-03-05,Lorient,Marseille,A,1,4,3.1,3.4,2.25,Lorient-Marseille,2
+2017-03-05,Monaco,Nantes,H,4,0,1.4,5,7.5,Monaco-Nantes,1
+2017-03-05,Toulouse,Lille,D,1,1,2.05,3.3,4,Toulouse-Lille,N
+2017-03-10,Marseille,Angers,H,3,0,1.67,3.75,5.5,Marseille-Angers,1
+2017-03-10,Nice,Caen,D,2,2,1.67,3.6,5.75,Nice-Caen,N
+2017-03-11,Guingamp,Bastia,H,5,0,1.73,3.6,5.25,Guingamp-Bastia,1
+2017-03-11,Monaco,Bordeaux,H,2,1,1.45,4.5,7.5,Monaco-Bordeaux,1
+2017-03-11,Montpellier,Nantes,A,2,3,2.1,3.25,3.8,Montpellier-Nantes,2
+2017-03-11,Nancy,Lille,A,1,2,2.6,3.1,2.9,Nancy-Lille,2
+2017-03-11,Rennes,Dijon,D,1,1,1.8,3.5,4.75,Rennes-Dijon,N
+2017-03-12,Lorient,Paris SG,A,1,2,9.5,5.25,1.33,Lorient-Paris SG,2
+2017-03-12,Lyon,Toulouse,H,4,0,1.44,4.5,7.5,Lyon-Toulouse,1
+2017-03-12,St Etienne,Metz,D,2,2,1.62,3.8,6,St Etienne-Metz,N
+2017-03-17,Lille,Marseille,D,0,0,3.1,3.2,2.38,Lille-Marseille,N
+2017-03-17,Metz,Bastia,H,1,0,1.8,3.4,4.75,Metz-Bastia,1
+2017-03-18,Angers,Guingamp,H,3,0,2.2,3.1,3.6,Angers-Guingamp,1
+2017-03-18,Bordeaux,Montpellier,H,5,1,2,3.5,3.8,Bordeaux-Montpellier,1
+2017-03-18,Nancy,Lorient,A,2,3,2.15,3.3,3.6,Nancy-Lorient,2
+2017-03-18,Nantes,Nice,D,1,1,2.4,3.1,3.25,Nantes-Nice,N
+2017-03-18,Toulouse,Rennes,D,0,0,2.2,3,3.75,Toulouse-Rennes,N
+2017-03-19,Caen,Monaco,A,0,3,5.25,3.8,1.67,Caen-Monaco,2
+2017-03-19,Dijon,St Etienne,A,0,1,3,3.1,2.55,Dijon-St Etienne,2
+2017-03-19,Paris SG,Lyon,H,2,1,1.44,4.75,6.75,Paris SG-Lyon,1
+2017-03-31,Guingamp,Nancy,H,1,0,1.8,3.6,4.75,Guingamp-Nancy,1
+2017-04-01,Bastia,Lille,A,0,1,3.4,3,2.38,Bastia-Lille,2
+2017-04-01,Marseille,Dijon,D,1,1,1.4,4.75,8,Marseille-Dijon,N
+2017-04-02,Lorient,Caen,H,1,0,2.2,3.4,3.3,Lorient-Caen,1
+2017-04-02,Montpellier,Toulouse,A,0,1,2.1,3.4,3.6,Montpellier-Toulouse,2
+2017-04-02,Nantes,Angers,H,2,1,2.15,3.3,3.6,Nantes-Angers,1
+2017-04-02,Nice,Bordeaux,H,2,1,2.25,3.3,3.3,Nice-Bordeaux,1
+2017-04-02,Rennes,Lyon,D,1,1,4.2,3.75,1.85,Rennes-Lyon,N
+2017-04-05,Metz,Lyon,A,0,3,6,4,1.57,Metz-Lyon,2
+2017-04-07,Lille,Nice,A,1,2,2.63,3,3,Lille-Nice,2
+2017-04-08,Angers,Monaco,A,0,1,4.8,3.8,1.73,Angers-Monaco,2
+2017-04-08,Bordeaux,Metz,H,3,0,1.45,4.2,8,Bordeaux-Metz,1
+2017-04-08,Caen,Montpellier,A,0,2,2.38,3.25,3.1,Caen-Montpellier,2
+2017-04-08,Dijon,Bastia,A,1,2,1.95,3.3,4.2,Dijon-Bastia,2
+2017-04-08,Lyon,Lorient,A,1,4,1.29,6,9.5,Lyon-Lorient,2
+2017-04-08,Nancy,Rennes,H,3,0,2.8,3,2.8,Nancy-Rennes,1
+2017-04-09,Paris SG,Guingamp,H,4,0,1.14,8,19,Paris SG-Guingamp,1
+2017-04-09,St Etienne,Nantes,D,1,1,2.05,3.2,4,St Etienne-Nantes,N
+2017-04-09,Toulouse,Marseille,D,0,0,3,3.2,2.5,Toulouse-Marseille,N
+2017-04-14,Angers,Paris SG,A,0,2,11,5.5,1.3,Angers-Paris SG,2
+2017-04-15,Guingamp,Toulouse,H,2,1,2.1,3.3,3.5,Guingamp-Toulouse,1
+2017-04-15,Metz,Caen,D,2,2,2.38,3.25,3,Metz-Caen,N
+2017-04-15,Monaco,Dijon,H,2,1,1.22,6.5,11,Monaco-Dijon,1
+2017-04-15,Montpellier,Lorient,H,2,0,1.91,3.5,4,Montpellier-Lorient,1
+2017-04-15,Nice,Nancy,H,3,1,1.65,3.6,5.5,Nice-Nancy,1
+2017-04-15,Rennes,Lille,H,2,0,2.3,3.1,3.25,Rennes-Lille,1
+2017-04-16,Bastia,Lyon,A,0,3,5.5,4,1.57,Bastia-Lyon,2
+2017-04-16,Marseille,St Etienne,H,4,0,1.8,3.5,4.5,Marseille-St Etienne,1
+2017-04-16,Nantes,Bordeaux,A,0,1,2.5,3.2,2.88,Nantes-Bordeaux,2
+2017-04-18,Metz,Paris SG,A,2,3,17,7.5,1.17,Metz-Paris SG,2
+2017-04-21,Nancy,Marseille,D,0,0,3.75,3.4,2.05,Nancy-Marseille,N
+2017-04-22,Bordeaux,Bastia,H,2,0,1.36,5.25,8,Bordeaux-Bastia,1
+2017-04-22,Caen,Nantes,A,0,2,2.5,3.25,2.9,Caen-Nantes,2
+2017-04-22,Dijon,Angers,H,3,2,2.2,3.3,3.4,Dijon-Angers,1
+2017-04-22,Lille,Guingamp,H,3,0,1.95,3.5,4,Lille-Guingamp,1
+2017-04-22,Lorient,Metz,H,5,1,1.73,4,4.5,Lorient-Metz,1
+2017-04-22,Paris SG,Montpellier,H,2,0,1.17,8,15,Paris SG-Montpellier,1
+2017-04-23,Lyon,Monaco,A,1,2,2.6,3.6,2.6,Lyon-Monaco,2
+2017-04-23,St Etienne,Rennes,D,1,1,2.1,3.1,4,St Etienne-Rennes,N
+2017-04-23,Toulouse,Nice,D,1,1,2.6,3.2,2.88,Toulouse-Nice,N
+2017-04-28,Angers,Lyon,A,1,2,3.3,3.4,2.2,Angers-Lyon,2
+2017-04-29,Bastia,Rennes,H,1,0,3.6,3.2,2.2,Bastia-Rennes,1
+2017-04-29,Guingamp,St Etienne,A,0,2,2.4,3.1,3.2,Guingamp-St Etienne,2
+2017-04-29,Metz,Nancy,H,2,1,2.63,3.1,2.9,Metz-Nancy,1
+2017-04-29,Monaco,Toulouse,H,3,1,1.22,6.5,13,Monaco-Toulouse,1
+2017-04-29,Montpellier,Lille,A,0,3,2.15,3.3,3.6,Montpellier-Lille,2
+2017-04-29,Nantes,Lorient,H,1,0,2.05,3.4,3.75,Nantes-Lorient,1
+2017-04-30,Caen,Marseille,A,1,5,3.6,3.4,2.1,Caen-Marseille,2
+2017-04-30,Dijon,Bordeaux,D,0,0,3.4,3.4,2.2,Dijon-Bordeaux,N
+2017-04-30,Nice,Paris SG,H,3,1,6,4.33,1.53,Nice-Paris SG,1
+2017-05-05,St Etienne,Bordeaux,D,2,2,2.7,3.1,2.8,St Etienne-Bordeaux,N
+2017-05-06,Guingamp,Dijon,H,4,0,2.15,3.4,3.4,Guingamp-Dijon,1
+2017-05-06,Lille,Metz,A,0,2,1.67,4,5,Lille-Metz,2
+2017-05-06,Lorient,Angers,D,1,1,2.25,3.4,3.25,Lorient-Angers,N
+2017-05-06,Nancy,Monaco,A,0,3,7,4.5,1.45,Nancy-Monaco,2
+2017-05-06,Paris SG,Bastia,H,5,0,1.13,9,21,Paris SG-Bastia,1
+2017-05-06,Toulouse,Caen,A,0,1,2.2,3.3,3.4,Toulouse-Caen,2
+2017-05-07,Lyon,Nantes,H,3,2,1.67,4,5,Lyon-Nantes,1
+2017-05-07,Marseille,Nice,H,2,1,1.95,3.5,3.75,Marseille-Nice,1
+2017-05-07,Rennes,Montpellier,H,1,0,2.3,3.25,3.1,Rennes-Montpellier,1
+2017-05-14,Bastia,Lorient,H,2,0,3.2,3.2,2.3,Bastia-Lorient,1
+2017-05-14,Bordeaux,Marseille,D,1,1,2.45,3.4,2.88,Bordeaux-Marseille,N
+2017-05-14,Caen,Rennes,A,0,1,1.8,3.6,4.6,Caen-Rennes,2
+2017-05-14,Dijon,Nancy,H,2,0,2,3.5,3.75,Dijon-Nancy,1
+2017-05-14,Metz,Toulouse,D,1,1,2.6,3.25,2.8,Metz-Toulouse,N
+2017-05-14,Monaco,Lille,H,4,0,1.17,8,15,Monaco-Lille,1
+2017-05-14,Montpellier,Lyon,A,1,3,3.1,3.6,2.25,Montpellier-Lyon,2
+2017-05-14,Nantes,Guingamp,H,4,1,2.05,3.5,3.6,Nantes-Guingamp,1
+2017-05-14,Nice,Angers,A,0,2,1.73,3.6,5.25,Nice-Angers,2
+2017-05-14,St Etienne,Paris SG,A,0,5,9,5,1.33,St Etienne-Paris SG,2
+2017-05-17,Monaco,St Etienne,H,2,0,1.2,7,13,Monaco-St Etienne,1
+2017-05-20,Angers,Montpellier,H,2,0,2.1,3.5,3.5,Angers-Montpellier,1
+2017-05-20,Guingamp,Metz,H,1,0,1.6,4.2,5.5,Guingamp-Metz,1
+2017-05-20,Lille,Nantes,H,3,0,2.5,3.3,2.9,Lille-Nantes,1
+2017-05-20,Lorient,Bordeaux,D,1,1,2.5,3.5,2.75,Lorient-Bordeaux,N
+2017-05-20,Lyon,Nice,D,3,3,1.53,4.75,5.25,Lyon-Nice,N
+2017-05-20,Marseille,Bastia,H,1,0,1.29,5.5,11,Marseille-Bastia,1
+2017-05-20,Nancy,St Etienne,H,3,1,2.05,3.5,3.6,Nancy-St Etienne,1
+2017-05-20,Paris SG,Caen,D,1,1,1.18,7.5,13,Paris SG-Caen,N
+2017-05-20,Rennes,Monaco,A,2,3,3.5,3.6,2.05,Rennes-Monaco,2
+2017-05-20,Toulouse,Dijon,D,0,0,2.5,3.4,2.8,Toulouse-Dijon,N
